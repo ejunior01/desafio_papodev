@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 263px;
+  height: 386px;
+  padding: 22px;
+  border-radius: 16px 50px 16px;
+  box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.25);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-product {
+  display: none;
+}
+
+.card-details {
+  margin-top: 40%;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.card-details .title-brand {
+  font-size: 14px;
+  line-height: 17px;
+  color: #8f8f8f;
+}
+
+.card-details .title-product {
+  width: 218px;
+  font-size: 26px;
+  line-height: 32px;
+  color: #29455f;
+}
+
+.card-details .price {
+}
+
+.card-details .price .price-simbol {
+}

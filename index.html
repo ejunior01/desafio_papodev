@@ -5,24 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Desafio 01 - Papo de Dev</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container">
       <div class="card">
-        <img src="" alt="" class="img-product">
+        <div class="img-product">
+            <img src="./assets/tenis_green.png" alt="Ténis Epic React Flyknit 2 - Cor Verde" id="img-product-gree">
+            <img src="./assets/tenis_red.png" alt="Ténis Epic React Flyknit 2 - Cor Vermelha" id="img-product-red">
+            <img src="./assets/tenis_blue.png" alt="Ténis Epic React Flyknit 2 - Cor Azul" id="img-product-blue">
+        </div>
         <div class="card-details">
-          <h3 class="title-brand"></h5>
-          <h2 class="title-product"></h2>
-          <p class="price"></p>
+          <h3 class="title-brand">Nike</h5>
+          <h2 class="title-product">Epic React Flyknit 2</h2>
+          <div class="price">
+            <p class="price-simbol">R$</p>
+            <p class="price-value">359,00</p>
+          </div>
         </div>
         <div class="preferences">
           <div class="color">
             <p>Cores</p>
+            <div class="select-color">
+              <li class="selected-green green">
+                  <input type="radio" name="color" id="green" value="green">
+                  <label for="green"></label>
+              </li>
+              <li class="selected-red red">
+                  <input type="radio" name="color" id="red" value="red">
+                  <label for="red"></label>
+              </li>
+              <li class="selected-blue blue">
+                  <input type="radio" name="color" id="blue" value="blue">
+                  <label for="blue"></label>
+              </li>
+            </div>
           </div>
           <div class="size">
             <p>Tamanhos:</p>
-
+            <div class="select-size">
+                <li class="selected-size">
+                    <input type="radio" name="size" id="size_37" value="size_37">
+                    <label for="size_37">37</label>
+                </li>
+                <li class="selected-size">
+                    <input type="radio" name="size" id="size_38" value="size_38">
+                    <label for="size_38">38</label>
+                </li>
+                <li class="selected-size">
+                    <input type="radio" name="size" id="size_39" value="size_39">
+                    <label for="size_39">39</label>
+                </li>
+                <li class="selected-size">
+                    <input type="radio" name="size" id="size_40" value="size_40">
+                    <label for="size_40">40</label>
+                </li>
+              </div>
           </div>
+        </div>
+        <div class="cart">
+          <div class="expand-arrow">
+              <img src="./assets/arrow.expand.svg" alt="">
+              <img src="./assets/arrow.expand.svg" alt="">
+              <img src="./assets/arrow.expand.svg" alt="">
+          </div>
+          <img src="./assets/cart.svg" alt="Carrinho de Compras">
         </div>
       </div>
     </div>
