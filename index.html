@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
     <div class="container">
       <div class="card">
         <div class="img-product">
-            <img src="./assets/tenis_green.png" alt="Ténis Epic React Flyknit 2 - Cor Verde" id="img-product-gree">
+            <img class="active" src="./assets/tenis_green.png" alt="Ténis Epic React Flyknit 2 - Cor Verde" id="img-product-gree">
             <img src="./assets/tenis_red.png" alt="Ténis Epic React Flyknit 2 - Cor Vermelha" id="img-product-red">
             <img src="./assets/tenis_blue.png" alt="Ténis Epic React Flyknit 2 - Cor Azul" id="img-product-blue">
         </div>
@@ -25,19 +25,19 @@
         </div>
         <div class="preferences">
           <div class="color">
-            <p>Cores</p>
+            <p>Cores:</p>
             <div class="select-color">
-              <li class="selected-green green">
+              <li class="selected-green">
                   <input type="radio" name="color" id="green" value="green">
-                  <label for="green"></label>
+                  <label for="green">green</label>
               </li>
-              <li class="selected-red red">
+              <li class="selected-red">
                   <input type="radio" name="color" id="red" value="red">
-                  <label for="red"></label>
+                  <label for="red">red</label>
               </li>
-              <li class="selected-blue blue">
+              <li class="selected-blue">
                   <input type="radio" name="color" id="blue" value="blue">
-                  <label for="blue"></label>
+                  <label for="blue">blue</label>
               </li>
             </div>
           </div>
@@ -65,13 +65,14 @@
         </div>
         <div class="cart">
           <div class="expand-arrow">
-              <img src="./assets/arrow.expand.svg" alt="">
-              <img src="./assets/arrow.expand.svg" alt="">
-              <img src="./assets/arrow.expand.svg" alt="">
+              <img src="./assets/arrow-expand.svg" alt="">
+              <img src="./assets/arrow-expand.svg" alt="">
+              <img src="./assets/arrow-expand.svg" alt="">
           </div>
           <img src="./assets/cart.svg" alt="Carrinho de Compras">
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
